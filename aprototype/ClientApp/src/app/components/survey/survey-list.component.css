@@ -1,0 +1,8 @@
+ul.surveys li {
+  color: #000acb;
+  cursor: pointer;
+}
+
+ul.surveys li.selected {
+  background-color: #cccccc
+ }
