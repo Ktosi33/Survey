@@ -1,9 +1,0 @@
-<h2>{{title}}</h2>
-<ul class="surveys">
-  <li *ngFor="let survey of surveys"
-      [class.selected]="survey === selectedSurvey"
-      (click)="onSelect(survey)">
-    <span>{{survey.Title}}</span>
-  </li>
-</ul>
-<!--<survey *ngIf="selectedSurvey" [survey]="selectedSurvey"></survey>  -->
